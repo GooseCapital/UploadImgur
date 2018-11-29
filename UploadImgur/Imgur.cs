@@ -80,7 +80,7 @@ namespace UploadImgur
             ImgurJson json = JsonConvert.DeserializeObject<ImgurJson>(serverString);
             if (!json.Success)
             {
-                error = json.Data.Error;
+                error = json.Data.Error.Message;
                 return false;
             }
             else

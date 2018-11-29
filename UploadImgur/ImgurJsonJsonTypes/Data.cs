@@ -92,7 +92,7 @@ namespace UploadImgur.ImgurJsonJsonTypes
         public string Link { get; set; }
 
         [JsonProperty("error")]
-        public string Error { get; set; }
+        public Error Error { get; set; }
 
         [JsonProperty("request")]
         public string Request { get; set; }
