@@ -13,7 +13,7 @@ namespace TestUploadImgur
     {
         static void Main(string[] args)
         {
-            Test();
+            //Test();
         }
 
         private static void Test()

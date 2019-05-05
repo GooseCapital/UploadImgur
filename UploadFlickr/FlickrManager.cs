@@ -27,8 +27,11 @@ namespace UploadFlickr
 
         public static OAuthAccessToken OAuthToken = new OAuthAccessToken()
         {
-            Token = "72157704118884185-b49661def8ffeef3", FullName = "Goose Capital", TokenSecret = "3e7eda63e4f9f684",
-            UserId = "166348236@N06", Username = "goosecapital"
+            //Token = "72157704118884185-b49661def8ffeef3", FullName = "Goose Capital", TokenSecret = "3e7eda63e4f9f684",
+            //UserId = "166348236@N06", Username = "goosecapital"
+            Token = "72157677911711977-3e979721831c4ea5",
+            TokenSecret = "0893ae08d67c16d5",
+            UserId = "163456694@N06", FullName = "Oskar O. Jensen", Username = "goose-spotify"
         };
 
     }
